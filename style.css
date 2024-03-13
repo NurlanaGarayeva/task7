@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slackside+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+section {
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1656608138197-2aea23cc3564?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 120px;
+
+}
+.container{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.nav_img{
+    width: 100px !important;
+    
+}
+.nav_img:hover{
+
+    transform: rotate(-180deg);
+    filter: drop-shadow(16px 16px 20px ) invert(75%);
+    
+}
+ul{
+    display: flex;
+    gap: 50px;
+    color: #fff;
+    font-size: 40px;
+    align-items: center;
+    font-family: "Slackside One", cursive;
+}
+
+ul:hover {
+    
+    transition: 1s;
+    text-decoration: underline;
+    text-decoration-color: blue; 
+    transition-timing-function: ease-out;
+
+}
+
+
+/* .nav_logo{
+    width:100px !important;
+} */
+.nav_img {
+    width: 100px;
+}
+.nav_img img{
+   
+width: 100%;
+
+}
+
+.navbar .nav_logo .nav_links i{
+    color: white;
+    
+}
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: white(0, 0, 0);
+    margin: 6px 0;
+    
+}
+.about {
+    display: flex;
+   justify-content: space-between;
+    font-family: "Slackside One", cursive;
+    color: white;
+}
+
+.about_first{
+    width: 50%;
+    margin: 20px;
+}
+h2{
+    /* padding: 150px; */
+    font-size: 150px;
+    
+}
+.about_first p{
+    font-size: 30px;
+
+}
+button{
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+
+}
+
+      
+.cards{
+    display: flex;
+
+    flex-wrap:wrap;
+    gap: 20px;
+    width: 45%;
+    margin: 10px;
+
+    
+}
+.text{
+width: 40%;
+height: 300px;
+
+transition: 1s;
+
+
+}
+.text:hover{
+    transform: translateY(-20px);
+    filter: drop-shadow(1px 6px 20px ) invert(10%);
+    
+   
+}
+.text p{
+    transform: translateY(100px);
+    padding: 8px;
+}
+    
+
+.text1{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1598482327649-e8831e1505be?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+   
+}
+.text2{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1582236829590-f8cb7de75229?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+.text3{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1607335614551-3062bf90f30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+.text4{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1607335614785-e1436e859ebf?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+}
+.photo{
+    color: white;
+    width: 800px;
+    height: 200px;
+    transition: 0.5;
+    border: 1px solid white;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+
+}
